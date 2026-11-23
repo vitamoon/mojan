@@ -18,23 +18,23 @@ define r = Character('[r_name]', color="#c12c09")
 define g = Character('[g_name]', color="#2adf26")
 define b = Character('[b_name]', color="#a8deef")
 
-# $ h_name = "You"
-$ p_name = "Bamboo"
-$ yw_name = "Yi Wan"
+# default h_name = "You"
+default p_name = "Bamboo"
+default yw_name = "Yi Wan"
 # random stranger -> detective yi wan
-$ jw_name = "Jiu Wan"
-$ jwt_name = "Jiu Wan?"
-$ yb_name = "Yi Bing"
-$ jb_name = "Jiu Bing"
-$ yt_name = "Yi Tiao"
-$ jt_name = "Jiu Tiao"
-$ e_name = "Dong"
-$ s_name = "Nan"
-$ w_name = "Xi"
-$ n_name = "Bei"
-$ r_name = "Hong Zhong"
-$ g_name = "Fa Cai"
-$ b_name = "Bai Ban"
+default jw_name = "Jiu Wan"
+default jwt_name = "Jiu Wan?"
+default yb_name = "Yi Bing"
+default jb_name = "Jiu Bing"
+default yt_name = "Yi Tiao"
+default jt_name = "Jiu Tiao"
+default e_name = "Dong"
+default s_name = "Nan"
+default w_name = "Xi"
+default n_name = "Bei"
+default r_name = "Hong Zhong"
+default g_name = "Fa Cai"
+default b_name = "Bai Ban"
 
 
 ###
