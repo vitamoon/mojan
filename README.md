@@ -1,4 +1,32 @@
+# mojan
+
 Visual novel about mahjong made in 4 months with about 1000 lines of dialogue and ~1 hour of content.
+
+## Running it
+
+There is no packaged release; the game runs from source with the [Ren'Py SDK](https://www.renpy.org/release/8.2.1) (written against 8.2.1).
+
+1. Download and unpack the SDK.
+2. Launch a build folder with it: `renpy.sh b8` on Linux or macOS, `renpy.exe b8` on Windows. Or point the launcher's projects directory at this repository and pick `b8`.
+
+`renpy.sh b8 lint` checks the scripts without opening the game.
+
+## Layout
+
+`b1` to `b8` are successive snapshots of the whole project; `b8` is the latest and the one to play or edit. Inside `b8`:
+
+| Path | Contents |
+|---|---|
+| `game/script.rpy` | Story and dialogue |
+| `game/items/` | Inventory, crafting, shop and quest screens |
+| `game/screens.rpy`, `game/gui.rpy`, `game/options.rpy` | Interface and project settings |
+| `game/images/`, `game/gui/` | Art and interface assets |
+
+## Credits
+
+Developed by Kaelan Yim and Jaden Lee. Art by Kendall Lee. Storyboard by Nora Millward.
+
+## Screenshots
 
 ![image](https://github.com/user-attachments/assets/b4153134-de3f-42c1-8228-fa8ae076c36a)
 ![2024-11-13-00-12-45_mojan_C9hUEiL3Df](https://github.com/user-attachments/assets/594c5b89-ebe8-4622-b735-a523b304849b)

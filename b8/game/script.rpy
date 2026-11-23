@@ -42,6 +42,10 @@ $ b_name = "Bai Ban"
 image bg shop = Solid("#ffbedb")
 image bg lab = Solid("#c3beff")
 
+# both cards are drawn at 1920x1080; scale them to the 1280x720 screen
+image interrostart = Transform("images/interrostart.png", zoom=2.0 / 3)
+image interrostop = Transform("images/interrostop.png", zoom=2.0 / 3)
+
 label start:
 
     python:
