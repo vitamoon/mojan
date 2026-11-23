@@ -1,0 +1,11 @@
+# Player state and crash logs written by Ren'Py at run time
+saves/
+log.txt
+errors.txt
+traceback.txt
+
+# Compiled scripts and caches; Ren'Py regenerates them from the .rpy sources
+*.rpyc
+*.rpymc
+*.rpyb
+cache/
